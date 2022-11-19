@@ -1,4 +1,0 @@
-
-ohfouewhfouhe
-# pipeline
-jenkins cicd
