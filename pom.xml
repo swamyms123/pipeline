@@ -53,11 +53,11 @@
 
 	<distributionManagement>
   <snapshotRepository>
-      <id>nexusdeploymentrepo</id>
+      <id>nexus</id>
       <url>http://13.212.74.6:8081/repository/nexus-snapshot/</url>
     </snapshotRepository>
         <repository>
-          <id>nexusdeploymentrepo</id>
+          <id>nexus</id>
       <url>http://13.212.74.6:8081/repository/nexus-release/</url>
     </repository>
   </distributionManagement>
