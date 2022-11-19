@@ -6,7 +6,7 @@ pipeline{
     stages{
        stage('GetCode'){
             steps{
-                git credentialsId: 'bdaac16d-a18e-4d0e-83c0-2850c1baee17', url: 'https://github.com/puneetgavri/nexus--maven-samples.git'
+                git branch: 'main', changelog: false, credentialsId: 'git', poll: false, url: 'https://github.com/swamyms123/pipeline.git'
             }
        }        
        stage('Build'){
